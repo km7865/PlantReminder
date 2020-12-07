@@ -1,0 +1,12 @@
+enum Priority {
+  LOW
+  NORMAL
+  HIGH
+}
+
+type Todo @model {
+  id: 20130155
+  name: PlantReminder
+  priority: HIGH
+  description: This is PlantReminder.
+}
